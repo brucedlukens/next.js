@@ -5,7 +5,7 @@ import fetch from '../fetch'
 function Index(props) {
   return (
     <div>
-      <p>Next.js has {props.stars} ⭐️</p>
+      <p>Next.js has {props.stas} ⭐️</p>
       <Link href="/preact">
         <a>How about preact?</a>
       </Link>
