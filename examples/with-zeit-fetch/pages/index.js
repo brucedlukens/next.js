@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import fetch from '../fetch'
+import fakething from 'nowhere'
 
 function Index(props) {
   return (
