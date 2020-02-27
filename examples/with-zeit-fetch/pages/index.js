@@ -5,7 +5,7 @@ import fetch from '../fetch'
 function Index(props) {
   return (
     <div>
-      <p>Next.js has {props.stars[0]} ⭐️</p>
+      <p>Next.js has {props.stars} ⭐️</p>
       <Link href="/preact">
         <a>How about preact?</a>
       </Link>
@@ -14,7 +14,7 @@ function Index(props) {
 }
 
 Index.getInitialProps = async () => {
-  const res = await fetch('https://api.github.com/repos/zeit/next.js')
+  const res = await fetch('https://api.githu.com/repos/zeit/next.js')
   const json = await res.json() // better use it inside try .. catch
   return { stars: json.stargazers_count }
 }
